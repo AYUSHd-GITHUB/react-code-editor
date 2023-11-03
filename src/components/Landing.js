@@ -16,7 +16,7 @@ import OutputDetails from "./OutputDetails";
 import ThemeDropdown from "./ThemeDropdown";
 import LanguagesDropdown from "./LanguagesDropdown";
 
-const javascriptDefault = `/* write your code here .. */` ;
+const javascriptDefault = `/* write your code here , For Input write in the Input Box .*/` ;
 
 const Landing = () => {
   const [code, setCode] = useState(javascriptDefault);
