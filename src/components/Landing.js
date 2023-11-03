@@ -16,7 +16,7 @@ import OutputDetails from "./OutputDetails";
 import ThemeDropdown from "./ThemeDropdown";
 import LanguagesDropdown from "./LanguagesDropdown";
 
-const javascriptDefault = `/* write your code here .. Arpit Maan */` ;
+const javascriptDefault = `/* write your code here .. */` ;
 
 const Landing = () => {
   const [code, setCode] = useState(javascriptDefault);
@@ -188,7 +188,7 @@ const Landing = () => {
       />
 
 
-      <div className="h-6 B w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"><h3>MAAN BHAI COMPILER</h3> </div>
+      <div className="h-6 B w-full bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500"><h3>COMPILER Using React Js and Judges0 API</h3> </div>
       <div className="flex flex-row">
         <div className="px-4 py-2">
           <LanguagesDropdown onSelectChange={onSelectChange} />
